@@ -1,0 +1,10 @@
+name: cardboard
+channels: 
+  - rpi
+  - bkreider
+dependencies:
+  - python=2.7
+  - opencv
+  - rpi.gpio
+  - pip:
+    - picamera
